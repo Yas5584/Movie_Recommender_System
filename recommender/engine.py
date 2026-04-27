@@ -1,8 +1,8 @@
-# import pandas as pd
-# import numpy as np
-# import pickle
-# import os
-# import requests
+import pandas as pd
+import numpy as np
+import pickle
+import os
+import requests
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # # movies_list=pickle.load(open('movies.pkl','rb'))
 # print(BASE_DIR)
@@ -13,8 +13,7 @@
 
 # print(similarity_vectors)
 
-import os
-import requests
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
