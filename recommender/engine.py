@@ -37,10 +37,10 @@ similarity_path = os.path.join(DATA_DIR, 'similarity_vectors.pkl')
 download_file(MOVIES_URL, movies_path)
 download_file(SIMILARITY_URL, similarity_path)
 
-import pickle
+
 
 movies_list = pickle.load(open(movies_path, 'rb'))
- similarity_vectors = pickle.load(open(similarity_path, 'rb'))
+similarity_vectors = pickle.load(open(similarity_path, 'rb'))
 def recommend_movie(movie):
     list_movie=[]
     movie_index=movies_list[movies_list['title']==movie].index[0]
