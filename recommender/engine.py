@@ -28,8 +28,8 @@ def download_file(url, path):
             f.write(r.content)
 
 
-MOVIES_URL = "https://drive.google.com/uc?export=download&id=11qd3LPnzV8oGj2fALCDOQWcPmy-5oQKd"
-SIMILARITY_URL = "https://drive.google.com/uc?export=download&id=1hCsoXM17X1fZJNKBMsbs3QNwcOUXgRAF"
+MOVIES_URL = "https://huggingface.co/datasets/YashEngineer/movie-recommender-data/resolve/main/movies.pkl"
+SIMILARITY_URL = "https://huggingface.co/datasets/YashEngineer/movie-recommender-data/resolve/main/similarity_vectors.pkl"
 
 movies_path = os.path.join(DATA_DIR, 'movies.pkl')
 similarity_path = os.path.join(DATA_DIR, 'similarity_vectors.pkl')
